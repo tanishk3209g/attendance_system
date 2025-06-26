@@ -11,7 +11,14 @@ This project is a **smart RFID-based attendance system** that allows users to sc
 - 📶 Works over Wi-Fi (Node MCU/ESP8266/ESP32)
 - 🖥️ Serial Monitor support for debugging
 - 🧾 Duplicate scan prevention within a session
+- 
 
+---
+
+## 📽️ Demo
+
+Demo available on Youtube
+https://youtu.be/ZLKsQ3MEE7Y
 ---
 
 ## 🛠️ Tech Stack
@@ -48,35 +55,6 @@ This project is a **smart RFID-based attendance system** that allows users to sc
 
 ---
 
-## 🔧 Setup Instructions
-
-### 1. Arduino Code
-- Open `RFID_Attendance.ino` in Arduino IDE.
-- Install necessary libraries:
-  - `MFRC522`
-  - `ESP8266WiFi` or `WiFi.h` (for ESP32)
-- Replace with your:
-  - Wi-Fi SSID & password
-  - Web App URL (from Google Apps Script)
-- Upload code to your ESP board.
-
-### 2. Google Sheets Setup
-1. Create a new **Google Sheet** and go to **Extensions > Apps Script**.
-2. Paste the code from `Google_Script/Code.gs`.
-3. Deploy as a **Web App**:
-   - Execute as: *Me*
-   - Who has access: *Anyone*
-4. Copy the Web App URL and paste into your Arduino code.
-
----
-
-## 📽️ Demo
-
-![System Demo](media/preview.png)
-
-![Attendance Logging](media/demo.gif)
-
----
 
 ## 🎯 Use Cases
 
